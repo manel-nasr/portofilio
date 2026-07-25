@@ -1,0 +1,109 @@
+body{
+    margin:0px;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    justify-content:end;
+    background-color:#dda15e;
+    padding:15px;
+    position:fixed;
+    width:1500px;
+
+}
+.navigation-links a {
+    margin-right:30px; 
+    color:rgb(8, 9, 9);
+    font-size:25px;
+    text-decoration:none;
+    font-weight: 700;
+}
+.navigation-links a:hover{
+    color:white;
+
+}
+.cover{
+    background-image:url("./img2.jpg") ;
+    height:700px;
+    background-position:top;
+    background-size: cover;
+     padding:80px;
+    color:white;
+    font-size:30px;
+   font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style:normal;
+   /* display:flex;
+    flex-direction:column;
+    justify-content:space-between; */
+}
+
+h3,h4{
+    margin:0px;
+}
+.cover button{
+    font-size:25px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.5s;
+    padding:7px 20px 7px 20px;
+}
+.cover button:hover{
+    background-color:#121212;
+    transform:scale(1.1,1.1);
+    color:white;
+}
+.information{
+    padding-top:150px;
+}
+
+.information:hover{
+     
+     color:#706c67; 
+}
+.cover a{
+    font-size:50px;
+}
+.social-media{
+    margin-top:240px;
+}
+.social-media a{
+    color:black;
+}
+.social-media :hover{
+    color:#706c67;
+}
+.card{
+    box-shadow:1px 1px 50px;
+    border-radius:30px;
+    margin:10px;
+    padding:10px;
+    width:25%;
+    cursor:pointer;
+    text-align: center;
+    transition:2s;
+}
+.card:hover{
+    transform:scale(1.1,1.1);
+}
+.logo{
+    font-size:100px;
+     transition:1s; 
+     color:#121212;  
+}
+.card:hover .logo{
+    transform:rotate(360deg);
+}
+.card-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;  
+}
+.services h1{
+    border-bottom:solid 5px;
+    width:120px;
+    margin-left:auto;
+    margin-right:auto;
+}
